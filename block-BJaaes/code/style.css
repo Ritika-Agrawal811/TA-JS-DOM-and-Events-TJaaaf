@@ -8,6 +8,8 @@ html {
 *,
 *:before,
 *:after {
+  margin: 0;
+  padding: 0;
   box-sizing: inherit;
 }
 
@@ -34,4 +36,8 @@ ul {
 img {
   max-width: 100%;
   height: auto;
+}
+
+body {
+  background: #eee;
 }
