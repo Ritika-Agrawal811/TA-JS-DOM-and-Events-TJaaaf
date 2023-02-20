@@ -33,3 +33,27 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+body {
+  background-color: #eee;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 1em 0;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1250px;
+  margin: 3em auto;
+}
+
+.box {
+  width: 4rem;
+  height: 4rem;
+  border: 1.5px solid #000;
+  text-align: center;
+}
